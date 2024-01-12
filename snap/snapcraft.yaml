@@ -21,7 +21,7 @@ apps:
 parts:
   hledger:
     source: https://github.com/simonmichael/hledger
-    source-tag: "1.31"
+    source-tag: "1.32.2"
     source-type: git
     plugin: nil
     build-environment:
