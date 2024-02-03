@@ -1,6 +1,6 @@
 name: hledger # you probably want to 'snapcraft register <name>'
 base: core22 # the base snap is the execution environment for this snap
-version: '1.31' # just for humans, typically '1.2+git' or '1.3.2'
+version: '1.32.2' # just for humans, typically '1.2+git' or '1.3.2'
 summary: Robust, intuitive plain text accounting # 79 char long summary
 description: |
   hledger is lightweight, cross platform, multi-currency, double-entry accounting software. 
@@ -13,9 +13,9 @@ confinement: classic # use 'strict' once you have the right plugs and slots
 apps:
   hledger:
     command: bin/hledger
-  hledger-ui:
+  ui:
     command: bin/hledger-ui
-  hledger-web:
+  web:
     command: bin/hledger-web
 
 parts:
